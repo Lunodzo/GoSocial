@@ -7,15 +7,16 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/help"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:scrollbarSize="10dp"
-        android:scrollbarStyle="outsideOverlay"
-        android:scrollbars="vertical"
-        android:text="@string/help"
-        android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scrollbarSize="10dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:text="@string/help"
+            android:textAppearance="@android:style/TextAppearance.Large" />
     </ScrollView>
 </LinearLayout>
